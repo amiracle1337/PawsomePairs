@@ -1,5 +1,5 @@
-import dogs from './data.js'
-import Tindrer from `./Dog.js`
+import dogs from "./data.js"
+import Tindrer from "./Dog.js"
 
 let profileArray = ["Sir", "Coppar", "Rasmus", "Lenard", "Quazi", "Juan", "Mark", "Adam", "Abdul", "Jacob"]  
 let likedProfiles = []
@@ -41,8 +41,8 @@ function end() {
                         <h1 class="matched-profile-headline">${profile.name}, ${profile.age}</h1>
                         <img class="matched-avatar" src="${profile.avatar}"/>
                     </div>`
-            }).join('')
-        setTimeout(() => {
+            }).join("')
+        setTimeo"t(() => "
             document.querySelector("main").style.display = "none"
             document.querySelector(".end-header").innerHTML = `
             <h1 class="end-module-content-headline">Sorry, you've sniffed all the tails! 🐾</h1>
