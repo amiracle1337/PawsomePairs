@@ -3,7 +3,7 @@ class Tindrer {
         Object.assign(this, data)
     }
     profileRender() {
-        const { name, avatar, age, bio, hasBeenLiked, hasBeenSwiped } = this
+        const { name, avatar, age, bio } = this
         return `
             <img class="user-avatar" src="${avatar}" />
             <h1 class="user-info">${name}, ${age}</h1>

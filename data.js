@@ -1,4 +1,4 @@
-const dogs = {
+const animals = {
   Sir: {
     name: "Sir David Nolan",
     avatar: "images/10.jpg",
@@ -81,4 +81,4 @@ const dogs = {
   }
 }
 
-export default dogs
+export default animals
