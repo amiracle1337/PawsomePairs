@@ -1,4 +1,4 @@
-import dogs from "./data.js"
+import animals from "./data.js"
 import Tindrer from "./Tindrer.js"
 
 let profileArray = ["Sir", "Coppar", "Rasmus", "Lenard", "Quazi", "Juan", "Mark", "Adam", "Abdul", "Jacob"]  
@@ -35,7 +35,7 @@ function getProfile() {
     if (!getNextProfile) {
         end()
     } else {
-        return new Tindrer(dogs[getNextProfile])
+        return new Tindrer(animals[getNextProfile])
     }
 }
 
