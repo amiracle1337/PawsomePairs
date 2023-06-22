@@ -1,6 +1,6 @@
 const animals = {
   Sir: {
-    name: "Sir David Nolan",
+    name: "Sir Nolan",
     avatar: "images/10.jpg",
     age: 25,
     bio: "Art. Literature. Natural wine. Yoga.",
