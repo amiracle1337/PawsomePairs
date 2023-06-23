@@ -1,7 +1,6 @@
 import animals from "./data.js"
 import Tindrer from "./Tindrer.js"
 
-let profileArray = ["Sir", "Coppar", "Rasmus", "Lenard", "Quazi", "Juan", "Mark", "Adam", "Abdul", "Jacob"]  
 let likedProfiles = []
 let currentProfile = getProfile()
 render()
@@ -31,11 +30,11 @@ document.querySelector(".btn-container").addEventListener("click", function(e) {
 })
 
 function getProfile() {
-    const getNextProfile = profileArray.shift()
+    const getNextProfile = animals.shift()
     if (!getNextProfile) {
         end()
     } else {
-        return new Tindrer(animals[getNextProfile])
+        return new Tindrer(getNextProfile)
     }
 }
 

@@ -1,5 +1,5 @@
-const animals = {
-  Sir: {
+const animals = [
+  {
     name: "Sir Nolan",
     avatar: "images/10.jpg",
     age: 25,
@@ -7,7 +7,7 @@ const animals = {
     hasBeenSwiped: false,
     hasBeenLiked: false
   },
-  Coppar: {
+  {
     name: "Mr Copper Field",
     avatar: "images/2.jpg",
     age: 43,
@@ -15,7 +15,7 @@ const animals = {
     hasBeenSwiped: false,
     hasBeenLiked: false
   },
-  Rasmus: {
+  {
     name: "Rasmus",
     avatar: "images/3.jpg",
     age: 24,
@@ -23,7 +23,7 @@ const animals = {
     hasBeenSwiped: false,
     hasBeenLiked: false
   },
-  Lenard: {
+  {
     name: "Lenard",
     avatar: "images/4.jpg",
     age: 33,
@@ -31,7 +31,7 @@ const animals = {
     hasBeenSwiped: false,
     hasBeenLiked: false
   },
-  Quazi: {
+  {
     name: "Quazi",
     avatar: "images/5.jpg",
     age: 29,
@@ -39,7 +39,7 @@ const animals = {
     hasBeenSwiped: false,
     hasBeenLiked: false
   },
-  Juan: {
+  {
     name: "Juan",
     avatar: "images/6.jpg",
     age: 26,
@@ -47,7 +47,7 @@ const animals = {
     hasBeenSwiped: false,
     hasBeenLiked: false
   },
-  Mark: {
+  {
     name: "Mark",
     avatar: "images/7.jpg",
     age: 26,
@@ -55,7 +55,7 @@ const animals = {
     hasBeenSwiped: false,
     hasBeenLiked: false
   },
-  Adam: {
+  {
     name: "Adam",
     avatar: "images/8.jpg",
     age: 27,
@@ -63,7 +63,7 @@ const animals = {
     hasBeenSwiped: false,
     hasBeenLiked: false
   },
-  Abdul: {
+  {
     name: "Abdul",
     avatar: "images/9.jpg",
     age: 29,
@@ -71,7 +71,7 @@ const animals = {
     hasBeenSwiped: false,
     hasBeenLiked: false
   },
-  Jacob: {
+  {
     name: "Jacob",
     avatar: "images/11.jpg",
     age: 27,
@@ -79,6 +79,7 @@ const animals = {
     hasBeenSwiped: false,
     hasBeenLiked: false
   }
-}
+]
 
 export default animals
+
